@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/Broom_100px.png</file>
+        <file>images/Grid_100px.png</file>
+        <file>images/Watch Your Step_100px.png</file>
+        <file>images/Waypoint Map_100px.png</file>
+    </qresource>
+    <qresource prefix="/transfer">
+        <file>short_cut_ru_RU.qm</file>
+    </qresource>
+</RCC>
