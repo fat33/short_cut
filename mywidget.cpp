@@ -113,8 +113,10 @@ void MyWidget::slotGenerateBadCells()
 
 void MyWidget::slotChangeStateItem(int conditionOld, int conditionNew)
 {
-    if(conditionOld == 1) beginCell = nullCell;
-    else if(conditionOld == 2) endCell = nullCell;
+    if(conditionOld == 1)
+        beginCell = nullCell;
+    else if(conditionOld == 2)
+        endCell = nullCell;
 
     emit signalClearPatch(hashCellItem);
 
